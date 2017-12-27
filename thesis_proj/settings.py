@@ -27,6 +27,8 @@ SECRET_KEY = 'imjwb%5f67vobx58ouihvwyn$(xv%(2s3(fvbrjsu$-rp2ngb7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+AUTH_USER_MODEL = 'bpweb.MyUser'
+
 ALLOWED_HOSTS = []
 
 
@@ -41,6 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bootstrap4',
     'bpweb',
+    'bpweb.MyUser',
+
 
 
 ]
